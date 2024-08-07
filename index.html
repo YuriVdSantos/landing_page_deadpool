@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadpool - Página Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Deadpool</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre o Filme</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+                <li><a href="#elenco">Elenco</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#ingressos">Compra de Ingressos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Deadpool</h1>
+            <p>O Mercenário Tagarela está de volta!</p>
+            <button onclick="window.location.href='https://www.cinemark.com.br/filme/deadpool-e-wolverine'" >Comprar Ingressos</button>
+        </div>
+    </section>
+
+    <!-- Seção Sobre o Filme -->
+    <section id="sobre" class="section">
+        <h2>Sobre o Filme</h2>
+        <p>Deadpool segue as aventuras do mercenário Wade Wilson, que após ser submetido a um experimento que lhe concede habilidades regenerativas, se transforma no anti-herói Deadpool. Armado com um humor sarcástico e habilidades de combate excepcionais, Deadpool busca vingança contra aqueles que destruíram sua vida.</p>
+        <ul>
+            <li>Direção: Tim Miller</li>
+            <li>Roteiro: Rhett Reese, Paul Wernick</li>
+            <li>Gêneros: Ação, Comédia, Super-Herói</li>
+            <li>Classificação: +16</li>
+        </ul>
+    </section>
+
+    <!-- Seção Trailer -->
+    <section id="trailer" class="section">
+        <h2>Assista ao Trailer</h2>
+        <div id="trailer-container">
+            <!-- Trailer será inserido pelo JavaScript -->
+        </div>
+        <button onclick="window.location.href='https://www.youtube.com/watch?v=Xithigfg7dA'" >Assistir no YouTube</button>
+    </section>
+
+    <!-- Seção Elenco -->
+    <section id="elenco" class="section">
+        <h2>Elenco</h2>
+        <div class="cast">
+            <div class="actor">
+                <img src="/assets/ryan.jpg" alt="Ryan Reynolds">
+                <h3>Ryan Reynolds</h3>
+                <p>como Deadpool</p>
+            </div>
+            <div class="actor">
+                <img src="/assets/morena.jpg" alt="Morena Baccarin">
+                <h3>Morena Baccarin</h3>
+                <p>como Vanessa Carlysle</p>
+            </div>
+            <div class="actor">
+                <img src="/assets/skrein.avif" alt="Ed Skrein">
+                <h3>Ed Skrein</h3>
+                <p>como Ajax</p>
+            </div>
+            <div class="actor">
+                <img src="/assets/tj.jpeg" alt="T.J. Miller">
+                <h3>T.J. Miller</h3>
+                <p>como Weasel</p>
+            </div>
+            <div class="actor">
+                <img src="/assets/gina.webp" alt="Gina Carano">
+                <h3>Gina Carano</h3>
+                <p>como Angel Dust</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria" class="section">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="/assets/cena1.webp" alt="Cena 1">
+            <img src="/assets/cena2.webp" alt="Cena 2">
+            <img src="/assets/cena3.jpeg" alt="Cena 3">
+            <img src="/assets/cena4.jpeg" alt="Cena 4">
+        </div>
+    </section>
+
+    <!-- Seção Compra de Ingressos -->
+    <section id="ingressos" class="section">
+        <h2>Garanta Seu Ingresso</h2>
+        <p>Não fique de fora da ação! Compre seus ingressos para Deadpool hoje mesmo e junte-se à diversão!</p>
+        <button onclick="window.location.href='https://www.cinemark.com.br/filme/deadpool-e-wolverine'" >Comprar Ingressos</button>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Email: contato@deadpool.com</p>
+        <div class="social">
+            <a href="http://facebook.com"><img src="/assets/face.png" alt="Facebook"></a>
+            <a href="http://twitter.com"><img src="/assets/x.webp" alt="Twitter"></a>
+            <a href="http://instagram.com"><img src="/assets/insta.jpeg" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Deadpool. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
